@@ -1,6 +1,6 @@
 # Clarity
 
-Clarity adalah aplikasi produktivitas berbasis web yang menggabungkan fitur **catatan** (notes) dan **Pomodoro Timer**, didesain dengan Next.js dan Tailwind CSS. Proyek ini juga dilengkapi dengan sistem **autentikasi pengguna (login & register)**.
+Clarity adalah aplikasi produktivitas berbasis web yang menggabungkan fitur **catatan** (notes) dan **Pomodoro Timer**, didesain dengan Next.js dan Tailwind CSS. Proyek ini juga dilengkapi dengan sistem **autentikasi pengguna (login & register)**. TESTING
 
 ---
 
