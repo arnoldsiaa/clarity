@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Clarity
 
-## Getting Started
+Clarity adalah aplikasi produktivitas berbasis web yang menggabungkan fitur **catatan** (notes) dan **Pomodoro Timer**, didesain dengan Next.js dan Tailwind CSS. Proyek ini juga dilengkapi dengan sistem **autentikasi pengguna (login & register)**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Fitur Utama
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 📝 **Catatan**
+  - Tambah, edit, dan hapus catatan
+  - Kategori/tagging (fitur mendatang)
+  - Pencarian catatan (fitur mendatang)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ⏱️ **Pomodoro Timer**
+  - Timer standar 25/5 (work/break)
+  - Custom sesi (fitur mendatang)
+  - Statistik sesi (fitur mendatang)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🔐 **Autentikasi**
+  - Login dan Register
+  - (Opsional) OAuth seperti Google (fitur mendatang)
 
-## Learn More
+- 🌙 **Tema Gelap (Dark Mode)** (fitur mendatang)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Teknologi yang Digunakan
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js 14 (App Router)](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [NextAuth.js](https://next-auth.js.org/) (planned)
+- [Prisma + PostgreSQL](https://www.prisma.io/) (optional untuk versi dengan DB)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📌 Roadmap
+- Setup Next.js + Tailwind ✔
+- Halaman Login & Register
+- Fitur Notes (CRUD)
+- Pomodoro Timer dasar
+- Statistik Pomodoro
+- Dark Mode
+- Google OAuth
+- Simpan data ke database
